@@ -14,7 +14,6 @@
 		7305118D2AB4364E00F5FFF8 /* CoreDataTrial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7305118B2AB4364E00F5FFF8 /* CoreDataTrial.xcdatamodeld */; };
 		7305118F2AB4364F00F5FFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7305118E2AB4364F00F5FFF8 /* Assets.xcassets */; };
 		730511922AB4364F00F5FFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730511902AB4364F00F5FFF8 /* LaunchScreen.storyboard */; };
-		7305119A2AB4368700F5FFF8 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730511992AB4368700F5FFF8 /* CoreDataHelper.swift */; };
 		7305119C2AB438E400F5FFF8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305119B2AB438E400F5FFF8 /* Employee.swift */; };
 		7305119E2AB4391A00F5FFF8 /* SQLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305119D2AB4391A00F5FFF8 /* SQLManager.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		7305118E2AB4364F00F5FFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730511912AB4364F00F5FFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730511932AB4364F00F5FFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		730511992AB4368700F5FFF8 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		7305119B2AB438E400F5FFF8 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		7305119D2AB4391A00F5FFF8 /* SQLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				730511822AB4364E00F5FFF8 /* AppDelegate.swift */,
-				730511992AB4368700F5FFF8 /* CoreDataHelper.swift */,
 				730511842AB4364E00F5FFF8 /* SceneDelegate.swift */,
 				730511862AB4364E00F5FFF8 /* ViewController.swift */,
 				7305119B2AB438E400F5FFF8 /* Employee.swift */,
@@ -151,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7305119E2AB4391A00F5FFF8 /* SQLManager.swift in Sources */,
-				7305119A2AB4368700F5FFF8 /* CoreDataHelper.swift in Sources */,
 				7305119C2AB438E400F5FFF8 /* Employee.swift in Sources */,
 				730511872AB4364E00F5FFF8 /* ViewController.swift in Sources */,
 				7305118D2AB4364E00F5FFF8 /* CoreDataTrial.xcdatamodeld in Sources */,
